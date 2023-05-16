@@ -1,6 +1,10 @@
-# Flask + Vercel
+A movie recommendation Python/Flask web app using the OpenAI capabilities.
 
-This example shows how to use Flask on Vercel with Serverless Functions using the [Python Runtime](https://vercel.com/docs/concepts/functions/serverless-functions/runtimes/python).
+Used technologies:
+- Python/Flask
+- HTML/CSS
+- Vercel
+- OpenAI API
 
 ## Demo
 
@@ -10,11 +14,10 @@ https://my-openai-app.vercel.app/
 
 This example uses the Web Server Gateway Interface (WSGI) with Flask to enable handling requests on Vercel with Serverless Functions.
 
-## Running Locally
+## Run the App Locally
 
-```bash
-npm i -g vercel
-vercel dev
+```
+python3 openai-app/openai_app.py
 ```
 
-Your Flask application is now available at `http://localhost:3000`.
+Your Flask application is now available at `http://localhost:5050`.
