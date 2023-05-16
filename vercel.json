@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "openai-app/openai_app.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "openai-app/openai_app.py"
+    }
+  ]
+}
